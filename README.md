@@ -3,6 +3,26 @@
 > **여행 지출 내역 기록 서비스** — REST API 서버  
 > SK쉴더스 루키즈 5기 개발4팀
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ecc781b6-d0e2-4115-ade9-dea16d65c1cc" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/011cfe32-ffa2-48ad-9a21-ee52e9768ec2" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f1ae342e-4cdd-4280-b2d9-01440c19c70a" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/bd4cf04d-7023-4208-a583-7cac6cf3fb1e" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d61ac83a-27e3-4dfb-aa1d-1fde09b54244" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/20ff7f93-795c-4765-afd7-ea0202cafdc0" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/759b0c7e-7f0f-4ddd-a539-7607db1837a6" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6077c158-4d57-47ba-955f-980a1d37af49" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0f3db64b-61a4-41a4-ac3a-e79758eb3f80" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/52d3cef3-edfa-460c-9547-ab7b2d7c29e1" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/8b7bf930-3780-4c09-a141-01a7c474787f" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e8a0e390-5d12-4c72-b16c-f69becbb60f0" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/024aed48-723d-412b-8de6-b469ee23e5d6" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/dfd57407-9424-4286-8a18-dae7ff4b652b" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/3cac49d9-c25d-4f81-8444-87e6915e50a8" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/fe4fa71c-c4b2-4972-ab74-8dda9345acce" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f307448f-170d-4349-b2bb-cc1854dd128b" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/50145748-282e-491f-8eaf-200f61e71e65" />
+
 ---
 
 ## 🌏 프로젝트 소개
@@ -197,57 +217,4 @@ backend-dev/
         └── V4__add_journal_entry_id_to_attachments.sql
 ```
 
----
 
-## ▶ 실행 방법
-
-### 사전 요구사항
-
-| 항목 | 버전 |
-|------|------|
-| Java | 17 이상 |
-| Maven | 3.6 이상 |
-| MariaDB | 10.6 이상 |
-
-
-### 환경 변수 설정
-
-`src/main/resources/application-secret.yml` 파일을 생성하거나, 아래 환경 변수를 설정합니다.
-
-```yaml
-# application-secret.yml 예시
-anthropic:
-  api:
-    key: sk-ant-xxxxxxxxxxxxxxxxxxxxxxxx
-```
-
-
-### 빌드 및 실행
-
-```bash
-# Maven Wrapper 사용
-./mvnw spring-boot:run
-
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ecc781b6-d0e2-4115-ade9-dea16d65c1cc" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/011cfe32-ffa2-48ad-9a21-ee52e9768ec2" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f1ae342e-4cdd-4280-b2d9-01440c19c70a" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/bd4cf04d-7023-4208-a583-7cac6cf3fb1e" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d61ac83a-27e3-4dfb-aa1d-1fde09b54244" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/20ff7f93-795c-4765-afd7-ea0202cafdc0" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/759b0c7e-7f0f-4ddd-a539-7607db1837a6" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6077c158-4d57-47ba-955f-980a1d37af49" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0f3db64b-61a4-41a4-ac3a-e79758eb3f80" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/52d3cef3-edfa-460c-9547-ab7b2d7c29e1" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/8b7bf930-3780-4c09-a141-01a7c474787f" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e8a0e390-5d12-4c72-b16c-f69becbb60f0" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/024aed48-723d-412b-8de6-b469ee23e5d6" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/dfd57407-9424-4286-8a18-dae7ff4b652b" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/3cac49d9-c25d-4f81-8444-87e6915e50a8" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/fe4fa71c-c4b2-4972-ab74-8dda9345acce" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f307448f-170d-4349-b2bb-cc1854dd128b" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/50145748-282e-491f-8eaf-200f61e71e65" />
-
-# 또는 JAR 빌드 후 실행
-./mvnw clean package -DskipTests
-java -jar target/costrip-backend-0.0.1-SNAPSHOT.jar
-```
