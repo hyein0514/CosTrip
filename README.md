@@ -1,6 +1,6 @@
 # CosTrip Backend
 
-> **여행 지출 내역 기록 서비스** — REST API 서버  
+> **여행 지출 내역 기록 서비스**
 > SK쉴더스 루키즈 5기 개발4팀
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ecc781b6-d0e2-4115-ade9-dea16d65c1cc" />
